@@ -20,10 +20,7 @@ func TestLoadConfig(t *testing.T) {
 	file.Close()
 
 	// Load the config
-	masks, err := loadConfig(file.Name())
-	if err != nil {
-		t.Fatalf("loadConfig returned an error: %v", err)
-	}
+	masks := loadConfig(file.Name())
 
 	// Verify the config
 	if masks["foo"] != "bar" || masks["hello"] != "world" {
