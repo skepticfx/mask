@@ -30,7 +30,7 @@ Running `mask` for the first time creates a sample config file under `~/.mask.co
 
 ```bash
 echo "Hello there! A song of ice and fire" | mask
-bye there! A song of fire and ice
+bye there! A song of fire and fire
 ```
 
 ## Development
